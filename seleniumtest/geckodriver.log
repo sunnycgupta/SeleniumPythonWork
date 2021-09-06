@@ -1,0 +1,27 @@
+1630910305004	geckodriver	INFO	Listening on 127.0.0.1:53781
+1630910305016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenFPRy7"
+1630910306391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenFPRy7/search.json.mozlz4", (void 0)))
+1630910311789	Marionette	INFO	Listening on port 39449
+1630910311911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630910385209	geckodriver	INFO	Listening on 127.0.0.1:53507
+1630910386224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile90xCKw"
+1630910387682	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile90xCKw/search.json.mozlz4", (void 0)))
+1630910393329	Marionette	INFO	Listening on port 40721
+1630910393445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630910397162	Marionette	INFO	Stopped listening on port 40721
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630910414188	geckodriver	INFO	Listening on 127.0.0.1:46709
+1630910414193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQoGktM"
+1630910415617	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQoGktM/search.json.mozlz4", (void 0)))
+1630910421002	Marionette	INFO	Listening on port 34829
+1630910421197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630910425027	Marionette	INFO	Stopped listening on port 34829
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
